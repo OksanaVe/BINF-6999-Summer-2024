@@ -1,0 +1,16 @@
+Scenario #1			Scenario #2		
+Organism	GenBank Accession number	Abundance, %	Organism	GenBank Accession number	Abundance, %
+Sus_scrofa	GCF_000003025.6	85	Sus_scrofa	GCF_000003025.6	85
+E_coli_1	GCA_029201525.1	1.258	E_coli_1	GCA_029201525.1	1.258
+E_coli_2	GCF_029094485.1	2.255	E_coli_2	GCF_029094485.1	2.255
+Clostridium_perfringens	GCF_020138775.1	1.135	Clostridium_perfringens	GCF_020138775.1	1.135
+Enterococcus_faecium	GCF_009734005.1	2.329	Enterococcus_faecium	GCF_009734005.1	2.329
+Enterococcus_hirae	GCF_002278015.2	2.277	Enterococcus_hirae	GCF_002278015.2	2.277
+Salmonella_enterica	GCF_000006945.2	1.773	Salmonella_enterica	GCF_000006945.2	1.773
+Hendra	NC_001906.3	1.103	Hendra	NC_001906.3	1.103
+FMDV_O	NC_039210	0.907	FMDV_O 	NC_039210	0.463
+CSFV	NC_002657	0.337	FMDV_A 	OQ356348	0.738
+Porcine_circovirus2	NC_006232	0.946	FMDV_SAT1 	MT602088	0.612
+Porcine_diarrhea	NC_003436	0.089	FMDV_SAT2 	MN103523	0.466
+Salmonella_phage	NC_021777	0.523	Salmonella_phage	NC_021777.1	0.523
+EnteroPhage_lambda	NC_001416	0.068	EnteroPhage_lambda	NC_001416.1	0.068
