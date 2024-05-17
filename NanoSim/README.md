@@ -2,7 +2,7 @@
 
 a.       Use NanoSim to generate simulated data sets (https://github.com/bcgsc/NanoSim)  
 
-b.       We will simulate data sets for two scenarios:  
+b.       We will simulate two scenarios:  
 
   **Scenario 1**: data set emulating sample with 7 distinct viral species with various relative abundance;
 
@@ -12,4 +12,4 @@ c.       Suggested relative abundance of viral/host/and other species in each si
 
 **Scenario 1**: 85% host (Swine); 11% bacteria (E.coli; Clostridium); 4% viruses (7 different species with abundances from 1.103% to 0.068%);
 
-**Scenario 2**: 85% host (Swine); 11% bacteria; 4% viruses (3 strains of FMDV – serotypes A, O, SAT1; 4 other distinct species of viruses)
+**Scenario 2**: 85% host (Swine); 11% bacteria; 4% viruses (4 strains of FMDV – serotypes A, O, SAT1; 3 other distinct species of viruses)
