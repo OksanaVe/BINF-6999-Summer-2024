@@ -1,5 +1,6 @@
-![BINF6999 piglet](binf-6999.jpg)  
-##Rationale:  
+ <img src="https://github.com/OksanaVe/BINF-6999---Summer-2024/blob/main/binf-6999.jpg?raw=true" width=60%>  
+ 
+### Rationale:    
 The efficiency and success of discovery of novel and unexpected pathogens using metagenomics
 data heavily depends on the availability of bioinformatics tools to identify organisms present in
 the sample. Many existing tools and approaches heavily rely on reference databases to classify
@@ -15,7 +16,7 @@ smaller genome size and lower abundance in metagenomics data. The main aim of th
 is to assess performance of various long read de novo assemblers to reconstruct viral
 genomes from metagenomics data and to develop the best practices guidelines.  
   
-##Project outline:  
+### Project outline:  
 - Get familiar with the bioinformatics tools used for de novo assembly of long reads (from
 primarily Oxford Nanopore sequencing platforms)  
 - Select a set of the de novo assemblers for further testing (as of now, we will primarily
@@ -31,7 +32,7 @@ identified for each assembler;
 - Summarize results indicating the best performing de novo assembly workflow for long-
 read viral metagenomics
   
-##Expected outcome:  
+### Expected outcome:  
 Report containing detailed results of the benchmarking tests, list of key settings identified,
 recommendations for the best practices when performing de novo viral metagenomics assemblies
 using Oxford Nanopore long-reads.  
