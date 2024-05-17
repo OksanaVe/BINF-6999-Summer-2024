@@ -1,8 +1,8 @@
  <img src="https://github.com/OksanaVe/BINF-6999---Summer-2024/blob/main/binf-6999.jpg?raw=true" width=60%>  
  
 ### Rationale:    
-The efficiency and success of discovery of novel and unexpected pathogens using metagenomics
-data heavily depends on the availability of bioinformatics tools to identify organisms present in
+The efficiency and success of discovery of novel and unexpected pathogens using metagenomic
+data heavily depend on the availability of bioinformatics tools to identify organisms present in
 the sample. Many existing tools and approaches heavily rely on reference databases to classify
 reads and assemble genomes. This approach, however, is problematic, particularly for novel
 pathogens, when no closely related reference is available. Therefore, reference-free (de novo)
