@@ -6,7 +6,7 @@ b.       We will simulate two scenarios:
 
   **Scenario 1**: data set emulating sample with 7 distinct viral species with various relative abundance;
 
-  **Scenario 2**: data set emulating sample with mixed infection of several strains of the same virus + 2 additional distinct viral species; we will use Foot-and-mouth disease virus (FMDV) as a model for our mixed infection case – this virus has 7 serotypes (strains) that can co-infect their host;
+  **Scenario 2**: data set emulating sample with mixed infection of several strains of the same virus + 3 additional distinct viral species; we will use Foot-and-mouth disease virus (FMDV) as a model for our mixed infection case – this virus has 7 serotypes (strains) that can co-infect their host;
 
 c.       Suggested relative abundance of viral/host/and other species in each simulated data set:  
 
