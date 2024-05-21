@@ -13,7 +13,7 @@ MSA-1008
 
 Sequencing Info:  
 Library prep Native barcoding v14 (SQK-NBD114.96)  
-Sequencer P2 Solo
+Sequencer P2 Solo  
 MinKNOW 23.11.7  
 Bream 7.8.2  
 Configuration 5.8.6  
