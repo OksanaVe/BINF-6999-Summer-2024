@@ -1,0 +1,14 @@
+Sus_scrofa	/home/lelshura/BINF6999/shared/ncbi_dataset/data/GCF_000003025.6/GCF_000003025.6_Sscrofa11.fna
+E_coli_1	/home/lelshura/BINF6999/shared//GCA_029201525.1_Ecoli1.fna	
+E_coli_2	/home/lelshura/BINF6999/shared/GCF_029094485.1_Ecoli2.fna	
+Clostridium_perfringens	/home/lelshura/BINF6999/shared/GCF_020138775.1_Clostridium_perfringens.fna	
+Enterococcus_faecium	/home/lelshura/BINF6999/shared/GCF_009734005.1_Enterococcus_faecium.fna	
+Enterococcus_hirae	/home/lelshura/BINF6999/shared/GCF_002278015.2_Enterococcus_hirae.fna	
+Salmonella_enterica	/home/lelshura/BINF6999/shared/GCF_000006945.2_Salmonella_enterica.fna	
+Hendra	/home/lelshura/BINF6999/shared/Hendra_virus_NC_001906.3.fna	
+FMDV_O	/home/lelshura/BINF6999/shared/FMDV_O_NC_039210.fna	
+CSFV	/home/lelshura/BINF6999/S1/CSFV_NC_002657.fna	
+Porcine_circovirus2	/home/lelshura/BINF6999/S1/porcineCircovirus_NC_006232.fna	
+Porcine_diarrhea	/home/lelshura/BINF6999/S1/Porcine_epidemic_diarrhea_NC_003436.fna	
+Salmonella_phage	/home/lelshura/BINF6999/shared/Salmonella_phage_NC_021777.fna	
+EnteroPhage_lambda	/home/lelshura/BINF6999/shared/enteroPhage_lambda_NC_001416.1.fna	
