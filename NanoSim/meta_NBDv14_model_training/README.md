@@ -21,4 +21,5 @@ Dorado 7.2.13
 MinKNOW Core 5.8.6   
 
 Training data location: https://drive.google.com/file/d/1n8Ie3HBV98GSm7KCC2ddj5yjC0tHeCNS/view?usp=sharing  
+Google drive directory: https://drive.google.com/drive/folders/1qHuyjRJvk_KPhdjMBdcE7ikbCdgWo5Q7?usp=sharing  
 
