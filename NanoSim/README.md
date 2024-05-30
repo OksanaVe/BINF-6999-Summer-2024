@@ -21,3 +21,4 @@ c.       Suggested relative abundance of viral/host/and other species in each si
 - [ ] Download pre-trained metagenomic (log) model from NanoSim repo;  
 - [ ] Run simulator.py to produce 1000000 fastq reads (--fastq) using guppy basecaller and with chimeric reads included (--chimeric);  
 - [ ] Combine generated 'aligned' and 'unaligned' reads into a single gz-compressed fastq file  
+- [ ] Run FastQC on the simulated reads - check read lengths and quality scores;  
