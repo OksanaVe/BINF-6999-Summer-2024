@@ -23,3 +23,8 @@ MinKNOW Core 5.8.6
 Training data location: https://drive.google.com/file/d/1n8Ie3HBV98GSm7KCC2ddj5yjC0tHeCNS/view?usp=sharing  
 Google drive directory: https://drive.google.com/drive/folders/1qHuyjRJvk_KPhdjMBdcE7ikbCdgWo5Q7?usp=sharing  
 
+Simplify fastq read IDs by keeping only unique read ID and removing additional descriptions:  
+```
+awk '{print $1}' NBDv14_dorado_SUP_training_1M.fq > NBDv14_dorado_SUP_training_1M_simpleID.fq  
+```
+
