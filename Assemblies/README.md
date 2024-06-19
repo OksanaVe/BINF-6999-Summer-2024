@@ -1,4 +1,4 @@
-This directory contains information about de novo genome assembly steps
+This directory contains information about de novo genome assembly steps.  
 We will be using Flye, Canu, MetaMDBG, and HaploFlow for metagenome assemblies.  
 
 ## Flye  
