@@ -23,7 +23,7 @@ c.       Suggested relative abundance of viral/host/and other species in each si
 - [ x ] Combine generated 'aligned' and 'unaligned' reads into a single gz-compressed fastq file  
 - [ x ] Run FastQC on the simulated reads - check read lengths and quality scores (optional - run NanoPlot on the generated read files);
 - [ x ] New (NBDv14) model training set-up - download reference genomes, input read file, and make a genome list .tsv file;
-- [ ] Run read_analysis.py to train new model;
-- [ ] Check error rate profile for the new model and compare it with the pre-trained NanoSim models;
-- [ ] Use new model to generate two additional simulated datasets (Scenario1 and Scenario2);
-- [ ] QC (FastQC/NanoPlot) new (NBDv14) data sets;  
+- [ x ] Run read_analysis.py to train new model;
+- [ x ] Check error rate profile for the new model and compare it with the pre-trained NanoSim models;
+- [ x ] Use new model to generate two additional simulated datasets (Scenario1 and Scenario2);
+- [ x ] QC (FastQC/NanoPlot) new (NBDv14) data sets;  
