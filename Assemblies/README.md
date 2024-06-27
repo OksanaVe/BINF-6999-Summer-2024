@@ -43,7 +43,7 @@ done
 
 ## MetaMDBG  
 GitHub: https://github.com/GaetanBenoitDev/metaMDBG  
-Best to install with conda/mamba (don't build from the source)  
+Best to install from source using conda/mamba (if installing directly with conda, assembly graph function won't work correctly)    
 Run assembler under the default settings first:  
 ```
 metaMDBG asm path/to/output_directory reads_concat.fq.gz -t 52
