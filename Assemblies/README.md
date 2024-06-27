@@ -4,7 +4,7 @@ We will be using Flye, Canu, MetaMDBG, and HaploFlow for metagenome assemblies.
 ## To-do list  
 
 - [ ] Perform assemblies under the default settings for each assembler (for Canu, we'll use settings recommended for metagenomics assemblies, not the defaults);  
-- [ ] Visualize assembly graphs;  
+- [ ] Visualize assembly graphs in Bandage;  
 - [ ] Classify assembled contigs using BLAST search;  
 
 
@@ -55,3 +55,6 @@ metaMDBG gfa assemblyDir k --contigpath --readpath
 
 ## HaploFlow  
 GitHub: https://github.com/hzi-bifo/Haploflow  
+
+## Bandage  
+Visualize assembly graphs using Bandage: https://rrwick.github.io/Bandage/
