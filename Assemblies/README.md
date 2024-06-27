@@ -1,6 +1,13 @@
 This directory contains information about de novo genome assembly steps.  
 We will be using Flye, Canu, MetaMDBG, and HaploFlow for metagenome assemblies.  
 
+## To-do list  
+
+- [ ] Perform assemblies under the default settings for each assembler (for Canu, we'll use settings recommended for metagenomics assemblies, not the defaults);  
+- [ ] Visualize assembly graphs;  
+- [ ] Classify assembled contigs using BLAST search;  
+
+
 ## Flye  
 GitHub: https://github.com/fenderglass/Flye/tree/flye  
 Example of simple bash script to run Flye in 'meta' mode:  
