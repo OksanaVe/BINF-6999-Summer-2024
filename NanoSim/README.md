@@ -15,15 +15,15 @@ c.       Suggested relative abundance of viral/host/and other species in each si
 **Scenario 2**: 85% host (Swine); 11% bacteria; 4% viruses (4 strains of FMDV – serotypes A, O, SAT1, SAT2; 3 other distinct species of viruses)  
 ![table image](abundance.jpg)   
 
-### To do list  
-- [ x ] Download reference genomes from GenBank (use accession numbers provided in the table above);   
-- [ x ] Update/put together required input files for simulation (update example files provided here);  
-- [ x ] Download pre-trained metagenomic (log) model from NanoSim repo;  
-- [ x ] Run simulator.py to produce 1000000 fastq reads (--fastq) using guppy basecaller and specifying median read length = 1kb (-med) ~~with chimeric reads included (--chimeric)~~;  
-- [ x ] Combine generated 'aligned' and 'unaligned' reads into a single gz-compressed fastq file  
-- [ x ] Run FastQC on the simulated reads - check read lengths and quality scores (optional - run NanoPlot on the generated read files);
-- [ x ] New (NBDv14) model training set-up - download reference genomes, input read file, and make a genome list .tsv file;
-- [ x ] Run read_analysis.py to train new model;
-- [ x ] Check error rate profile for the new model and compare it with the pre-trained NanoSim models;
-- [ x ] Use new model to generate two additional simulated datasets (Scenario1 and Scenario2);
-- [ x ] QC (FastQC/NanoPlot) new (NBDv14) data sets;  
+### To-do list  
+- [x] Download reference genomes from GenBank (use accession numbers provided in the table above);   
+- [x] Update/put together required input files for simulation (update example files provided here);  
+- [x] Download pre-trained metagenomic (log) model from NanoSim repo;  
+- [x] Run simulator.py to produce 1000000 fastq reads (--fastq) using guppy basecaller and specifying median read length = 1kb (-med) ~~with chimeric reads included (--chimeric)~~;  
+- [x] Combine generated 'aligned' and 'unaligned' reads into a single gz-compressed fastq file  
+- [x] Run FastQC on the simulated reads - check read lengths and quality scores (optional - run NanoPlot on the generated read files);
+- [x] New (NBDv14) model training set-up - download reference genomes, input read file, and make a genome list .tsv file;
+- [x] Run read_analysis.py to train new model;
+- [x] Check error rate profile for the new model and compare it with the pre-trained NanoSim models;
+- [x] Use new model to generate two additional simulated datasets (Scenario1 and Scenario2);
+- [x] QC (FastQC/NanoPlot) new (NBDv14) data sets;  
