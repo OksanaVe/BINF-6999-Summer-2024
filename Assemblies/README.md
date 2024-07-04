@@ -4,7 +4,8 @@ We will be using Flye, Canu, MetaMDBG, and HaploFlow for metagenome assemblies.
 ## To-do list  
 
 - [ ] Perform assemblies under the default settings for each assembler (for Canu, we'll use settings recommended for metagenomics assemblies, not the defaults);  
-- [ ] Visualize assembly graphs in Bandage;  
+- [ ] Visualize assembly graphs in Bandage;
+- [ ] Check BLAST databases available on Compute Canada (/cvmfs/bio.data.computecanada.ca/content/databases/Core/blast_dbs/2022_03_23/);  
 - [ ] Classify assembled contigs using BLAST search;  
 
 
@@ -55,6 +56,12 @@ metaMDBG gfa assemblyDir k --contigpath --readpath
 
 ## HaploFlow  
 GitHub: https://github.com/hzi-bifo/Haploflow  
+If installing with conda, extract .fq.gz file before running HaploFlow (doesn't work with compressed Fastq files).  
+Run under the default settings:  
+```
+haploflow --read-file path_to_fastq_file --out path_to_output_directory
+```
+
 
 ## Bandage  
 Visualize assembly graphs using Bandage: https://rrwick.github.io/Bandage/
