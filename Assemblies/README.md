@@ -62,6 +62,22 @@ Run under the default settings:
 haploflow --read-file path_to_fastq_file --out path_to_output_directory
 ```
 
+## BLAST  
+```
+#!/bin/bash
+FILES="./*.fasta"
+for f in $FILES
+do
+blastn \
+  -db "/Drives/W/Projects/NCFAD_Genomics_Unit/Zarls/DB/blast/2024-03-25/nt_viruses" \
+  -query "${f}" \
+  -outfmt "6 qaccver saccver pident length mismatch gapopen qstart qend sstart send evalue bitscore qlen slen stitle staxid ssciname" \
+  -evalue 1e-100 \
+  -out "${f%.*}_blast.out"
+  
+done
+```
+
 
 ## Bandage  
 Visualize assembly graphs using Bandage: https://rrwick.github.io/Bandage/
