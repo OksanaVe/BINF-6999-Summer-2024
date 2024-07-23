@@ -112,4 +112,8 @@ write.table(top_hit, nm, quote = F, sep="\t", row.names=F)
 
 
 ## Bandage  
-Visualize assembly graphs using Bandage: https://rrwick.github.io/Bandage/
+Visualize assembly graphs using Bandage: https://rrwick.github.io/Bandage/  
+
+## Strainberry  
+For the Scenario 2 assemblies that don't have 4 FMDV subtypes assembled and identified, use Strainberry: https://github.com/rvicedomini/strainberry  
+
