@@ -80,6 +80,35 @@ blastn \
   
 done
 ```
+## Parse BLAST output  
+Example R script to parse BLAST output and pick the top match (by % identity) per contig:  
+```
+setwd("/Oksana/path-to-blast-results-directory")
+
+blast_fs <- list.files(path=".", pattern="_blast.out", all.files=TRUE, 
+	full.names=F)
+
+for(j in 1:length(blast_fs)){
+
+dt <- read.csv(blast_fs[j], header=F, sep="\t")
+
+header <- c("contig", "accession", "ident", "length", "mismatch", "gap", "qstart", "qend", "sstart", "send", "eval", "bitscore", "qlen", "slen", "stitle", "staxid", "ssciname")
+names(dt) = header
+tigs = dt$contig
+uni_tigs <- unique(tigs)
+top_hit <- data.frame(contig = character(), accession = character(), ident = numeric(), length = numeric(), mismatch = numeric(), gap = numeric(), qstart = numeric(), qend = numeric(), sstart = numeric(), send = numeric(), eval = numeric(), bitscore = numeric(), qlen = numeric(), slen = numeric(), stitle = character(), staxid = character(), ssciname = character())
+for(i in 1:length(uni_tigs)){
+     dt_tmp <- subset(dt, dt$contig == uni_tigs[i])
+     dt_tmp_ord <- dt_tmp[order(dt_tmp$ident),]
+     top <- dt_tmp_ord[1,]
+     top_hit <- rbind(top_hit, top)
+}
+
+nm <- paste0(unlist(strsplit(blast_fs[j], ".contigs"))[1], "_topHit.csv")
+write.table(top_hit, nm, quote = F, sep="\t", row.names=F)
+
+}
+```
 
 
 ## Bandage  
