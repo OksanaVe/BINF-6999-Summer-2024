@@ -104,7 +104,7 @@ for(i in 1:length(uni_tigs)){
      top_hit <- rbind(top_hit, top)
 }
 
-nm <- paste0(unlist(strsplit(blast_fs[j], ".out"))[1], "_topHit.csv")
+nm <- paste0(unlist(strsplit(blast_fs[j], ".contigs"))[1], "_topHit.csv")
 write.table(top_hit, nm, quote = F, sep="\t", row.names=F)
 
 }
