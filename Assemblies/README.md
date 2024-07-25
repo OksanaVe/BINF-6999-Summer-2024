@@ -7,7 +7,7 @@ We will be using Flye, Canu, MetaMDBG, and ~~HaploFlow~~ for metagenome assembli
 - [x] Visualize assembly graphs in Bandage;
 - [x] Check BLAST databases available on Compute Canada (/cvmfs/bio.data.computecanada.ca/content/databases/Core/blast_dbs/2022_03_23/);  
 - [x] Classify assembled contigs using BLAST search;
-- [ ] Summarize BLAST results (top hit per contig);
+- [x] Summarize BLAST results (top hit per contig);
 - [ ] Identify scenario(s) where not all subtypes of FMDV recovered;
 - [ ] Run Strainberry to recover missing FMDV subtypes;
 
@@ -99,7 +99,7 @@ uni_tigs <- unique(tigs)
 top_hit <- data.frame(contig = character(), accession = character(), ident = numeric(), length = numeric(), mismatch = numeric(), gap = numeric(), qstart = numeric(), qend = numeric(), sstart = numeric(), send = numeric(), eval = numeric(), bitscore = numeric(), qlen = numeric(), slen = numeric(), stitle = character(), staxid = character(), ssciname = character())
 for(i in 1:length(uni_tigs)){
      dt_tmp <- subset(dt, dt$contig == uni_tigs[i])
-     dt_tmp_ord <- dt_tmp[order(dt_tmp$ident),]
+     dt_tmp_ord <- dt_tmp[order(dt_tmp$ident, decreasing = T),]
      top <- dt_tmp_ord[1,]
      top_hit <- rbind(top_hit, top)
 }
