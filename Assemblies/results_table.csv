@@ -1,0 +1,17 @@
+	Pre-trained model			NBDv14 model				Scenario #2	Pre-trained model			NBDv14 model		
+Organism	Canu*	Flye	metaMDBG	Canu	Flye	metaMDBG		Organism	Canu*	Flye	metaMDBG	Canu	Flye	metaMDBG
+Sus_scrofa	n/a	+	+	+	+	+		Sus_scrofa	n/a	+	+	+	+	+
+E_coli	n/a	+	+	+	+	+		E_coli	n/a	+	+	+	+	+
+Clostridium_perfringens	n/a	+	+	+	+	+		Clostridium_perfringens	n/a	+	+	+	+	+
+Enterococcus_faecium	n/a	+	+	-	+	+		Enterococcus_faecium	n/a	+	+	+	+	+
+Enterococcus_hirae	n/a	+	+	-	+	+		Enterococcus_hirae	n/a	+	-	-	+	+
+Salmonella_enterica	n/a	+	+	-	+	+		Salmonella_enterica	n/a	+	+	+	+	+
+Hendra	n/a	+	+	+	+	+		Hendra	n/a	+	+	+	+	+
+FMDV_O	n/a	+	+	+	+	+		FMDV_O 	n/a	+	+	+	+	+
+CSFV	n/a	-	+	-	+	+		FMDV_A 	n/a	+	+	+	+	+
+Porcine_circovirus2	n/a	-	-	-	-	-		FMDV_SAT1 	n/a	+	+	+	+	+
+Porcine_diarrhea	n/a	+	-	-	+	+		FMDV_SAT2 	n/a	+	+	+	+	+
+Salmonella_phage	n/a	+	+	-	+	+		Salmonella_phage	n/a	+	+	-	+	+
+EnteroPhage_lambda	n/a	+	-	-	-	-		EnteroPhage_lambda	n/a	-	-	-	-	-
+														
+* - no assembled contigs were produced														
