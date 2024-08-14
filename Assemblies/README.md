@@ -7,9 +7,9 @@ We will be using Flye, Canu, MetaMDBG, and ~~HaploFlow~~ for metagenome assembli
 - [x] Visualize assembly graphs in Bandage;
 - [x] Check BLAST databases available on Compute Canada (/cvmfs/bio.data.computecanada.ca/content/databases/Core/blast_dbs/2022_03_23/);  
 - [x] Classify assembled contigs using BLAST search;
-- [x] Summarize BLAST results (top hit per contig);
-- [ ] Identify scenario(s) where not all subtypes of FMDV recovered;
-- [ ] Run Strainberry to recover missing FMDV subtypes;
+- [x] Summarize BLAST results (top hit per contig; use Blast2xl);
+- [ ] Add scenario(s) where not all subtypes of FMDV recovered;
+- [ ] Run Strainberry to recover missing FMDV subtypes;  
 
 
 ## Flye  
