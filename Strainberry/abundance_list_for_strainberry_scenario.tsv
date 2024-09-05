@@ -1,0 +1,15 @@
+Size	1000000
+Sus_scrofa	87.15
+E_coli_1	1.288
+E_coli_2	2.245
+Clostridium_perfringens	1.135
+Enterococcus_faecium	2.329
+Enterococcus_hirae	2.277
+Salmonella_enterica	1.773
+Hendra	1.103
+FMDV_O	0.013
+FMDV_A	0.008
+FMDV_SAT1	0.012
+FMDV_SAT2	0.026
+Salmonella_phage	0.523
+EnteroPhage_lambda	0.068
