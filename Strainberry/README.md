@@ -41,5 +41,11 @@ samtools index FLYE_contigs_mapped_sorted.bam
 samtools faidx FLYE_assembly.fasta
 ```
 
+Run Strainberry:  
+```
+strainberry -r FLYE_assembly.fasta -b FLYE_contigs_mapped_sorted.bam -o Strainberry_FLYE_asm
+```
+
+
 
 
