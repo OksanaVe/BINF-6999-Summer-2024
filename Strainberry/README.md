@@ -32,13 +32,13 @@ Extract unique FMDV contigs from the assembly .fasta file using generated ID fil
 seqtk subseq FLYE_assembly.fasta FMDV_unique_contig_IDs.out > FMDV_unique_contigs.fasta
 ```
 
-Map simulated reads back to the extracted FMDV contigs using minimap2, convert to .bam, sort and index final .bam file and index extracted contig fasta file:  
+Map simulated reads back to the entire assembly (e.g. all FLYE contigs) using minimap2, convert to .bam, sort and index final .bam file and index assembly fasta file:  
 ```
-minimap2 -a -x map-ont -o FMDV_contigs_mapped.sam FMDV_unique_contigs.fasta Strains_simulation2_concat.fq.gz
-samtools view -b FMDV_contigs_mapped.sam > FMDV_contigs_mapped.bam
-samtools sort FMDV_contigs_mapped.bam > FMDV_contigs_mapped_sorted.bam
-samtools index FMDV_contigs_mapped_sorted.bam
-samtools faidx FMDV_unique_contigs.fasta
+minimap2 -a -x map-ont -o FLYE_contigs_mapped.sam FLYE_assembly.fasta Strains_simulation2_concat.fq.gz
+samtools view -b FLYE_contigs_mapped.sam > FLYE_contigs_mapped.bam
+samtools sort FLYE_contigs_mapped.bam > FLYE_contigs_mapped_sorted.bam
+samtools index FLYE_contigs_mapped_sorted.bam
+samtools faidx FLYE_assembly.fasta
 ```
 
 
