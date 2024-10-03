@@ -12,7 +12,7 @@ Strain-level assembly of viral genomes
 
 Dataset for the strain separation analysis is available here: https://drive.google.com/drive/folders/1uj9ZExmKr7oCrYq9YaBeVDrsj2P2QFi4?usp=sharing  
 
-Dataset was simulated using a modified Scenario 2 abundance settings and an NBDv14-trained model.  
+Dataset was simulated using modified Scenario 2 abundance settings and an NBDv14-trained model.  
 
 ## Strainberry  
 
