@@ -15,3 +15,4 @@ To create a snail plot with general assembly statistics:
 blobtools view --plot --view snail path/to/BlobTools/dataset/directory
 ```
 
+<img src="https://github.com/OksanaVe/BINF-6999-Summer-2024/blob/main/Visualization/NBDv14_Scenario2_metaMDBG.snail.png" width=300>  
