@@ -4,7 +4,7 @@ Strain-level assembly of viral genomes
 
 - [ ] Add scenario where not all subtypes of FMDV recovered;
 - [ ] Run de novo assemblers under the default settings and identify which assemblers don't recover all four strains;
-- [ ] Identify and extract all contigs match to FMDV;  
+- [ ] Identify and extract all contigs matched to FMDV;  
 - [ ] Run Strainberry to recover missing FMDV subtypes;
 
 
