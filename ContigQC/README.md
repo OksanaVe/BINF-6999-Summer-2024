@@ -36,4 +36,8 @@ samtools depth -a Hendra_contigs_mapped_sorted.bam | awk '{c++; if($3>0) total+=
 ```
 
 Calculate % identity:  
+Use Cramino (https://github.com/wdecoster/cramino) to calculate stats including % identity for bam files.  
+```
+cramino Hendra_contigs_mapped_corted.bam
+```
 
