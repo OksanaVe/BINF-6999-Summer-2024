@@ -15,4 +15,9 @@ To create a snail plot with general assembly statistics:
 blobtools view --plot --view snail path/to/BlobTools/dataset/directory
 ```
 
-<img src="https://github.com/OksanaVe/BINF-6999-Summer-2024/blob/main/Visualization/NBDv14_Scenario2_metaMDBG.snail.png" width=300>  
+<img src="https://github.com/OksanaVe/BINF-6999-Summer-2024/blob/main/Visualization/NBDv14_Scenario2_metaMDBG.snail.png" width=300>   
+
+
+Explore IGV (https://igv.org/doc/desktop/#DownloadPage/#_top) to visualize contig alignments and check alignment stats:  
+
+<img src="https://github.com/OksanaVe/BINF-6999-Summer-2024/blob/main/Visualization/IGV_example.png" width=750>
