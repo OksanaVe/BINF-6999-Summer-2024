@@ -1,1 +1,28 @@
-contig qc - breadth of coverage and % identity  
+From the BLAST results, extract info for each contig that matches viruses included in the simulaiton (use the full blastn.out results for this, not just the top hit):  
+```
+grep "Hendra" path/to/blastn.out > Hendra_contigs.out
+```
+
+Next, get the unique contig IDs from the list of the virus-matched contigs:  
+```
+awk '{print $1}' Hendra_contigs.out | uniq > Hendra_unique_contig_IDs.out
+```
+
+Extract unique Hendra contigs from the assembly .fasta file using generated ID file (e.g. using FLYE final assembly.fasta file):  
+```
+seqtk subseq FLYE_assembly.fasta Hendra_unique_contig_IDs.out > Hendra_unique_contigs.fasta
+```
+
+Map extracted contigs back to the reference viral genome used to generate simulated dataset (minimap2), convert to .bam, sort and index final .bam file and index assembly fasta file:  
+```
+minimap2 -a -x map-ont -o Hendra_contigs_mapped.sam Hendra_ref_genome.fasta Hendra_unique_contigs.fasta
+samtools view -b FLYE_contigs_mapped.sam > FLYE_contigs_mapped.bam
+samtools sort FLYE_contigs_mapped.bam > FLYE_contigs_mapped_sorted.bam
+samtools index FLYE_contigs_mapped_sorted.bam
+samtools faidx FLYE_assembly.fasta
+```
+
+Calculate breadth of coverage:  
+
+Calculate % identity:  
+
